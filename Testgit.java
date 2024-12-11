@@ -52,6 +52,7 @@ public class Testgit {
                             count++;
                         }
                     }
+                    System.out.println("La letra '" + letter + "' aparece " + count + " veces en la frase.");
                     
                     break;
 
