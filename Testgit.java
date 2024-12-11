@@ -51,6 +51,17 @@ public class Testgit {
 
                 case 3:
                     System.out.print("letra ");
+                    System.out.print("Ingrese una frase: ");
+                    String inputPhrase = scanner.nextLine();
+                    System.out.print("Ingrese una letra: ");
+                    char letter = scanner.nextLine().charAt(0);
+                    int count = 0;
+                    for (char c : inputPhrase.toCharArray()) {
+                        if (c == letter) {
+                            count++;
+                        }
+                    }
+                    System.out.println("La letra '" + letter + "' aparece " + count + " veces en la frase.");
                     
                     break;
 
