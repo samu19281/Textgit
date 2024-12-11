@@ -1,0 +1,4 @@
+ * Proyecto: Programa de Letras y Frases
+ * Propósito:
+ * Este programa tiene como objetivo proporcionar una herramienta interactiva que permita a los usuarios realizar operaciones básicas con palabras y frases, como concatenar palabras, contar palabras en una frase y analizar 
+la frecuencia de aparición de una letra específica en una frase
