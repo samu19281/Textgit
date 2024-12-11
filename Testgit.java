@@ -37,6 +37,9 @@ public class Testgit {
 
                 case 2:
                     System.out.print("palabra ");
+                    System.out.print("Ingrese una frase: ");
+                    String phrase = scanner.nextLine();
+                    String[] words = phrase.trim().split("\\s+");
                     
                     break;
 
