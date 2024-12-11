@@ -33,6 +33,10 @@ public class Testgit {
             switch (option) {
                 case 1:
                     System.out.print("concatenar");
+                    System.out.print("Ingrese la primera palabra: ");
+                    String word1 = scanner.nextLine();
+                    System.out.print("Ingrese la segunda palabra: ");
+                    String word2 = scanner.nextLine();
                     break;
 
                 case 2:
