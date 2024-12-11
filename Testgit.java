@@ -40,6 +40,7 @@ public class Testgit {
                     System.out.print("Ingrese una frase: ");
                     String phrase = scanner.nextLine();
                     String[] words = phrase.trim().split("\\s+");
+                    System.out.println("La frase contiene " + words.length + " palabra(s)." );
                     
                     break;
 
